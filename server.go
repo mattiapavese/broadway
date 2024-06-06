@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"net/http"
 
-	background "github.com/mattiapavese/broadway/background_jobs"
-	routerhandlers "github.com/mattiapavese/broadway/router_handlers"
+	background "github.com/mattiapavese/broadway/background"
+	routerhandlers "github.com/mattiapavese/broadway/routerhandlers"
 )
 
 func main() {

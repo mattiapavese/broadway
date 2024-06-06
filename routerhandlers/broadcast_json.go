@@ -9,7 +9,7 @@ import (
 	"net/http"
 	"strings"
 
-	redisclient "github.com/mattiapavese/broadway/redis_client"
+	redisclient "github.com/mattiapavese/broadway/redisclient"
 )
 
 type BroadcastOnChannelJSONBody struct {

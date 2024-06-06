@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"net/http"
 
-	redisclient "github.com/mattiapavese/broadway/redis_client"
+	redisclient "github.com/mattiapavese/broadway/redisclient"
 )
 
 type RegisterConnectionBody struct {

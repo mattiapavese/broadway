@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"time"
 
-	redisclient "github.com/mattiapavese/broadway/redis_client"
-	handlers "github.com/mattiapavese/broadway/router_handlers"
+	redisclient "github.com/mattiapavese/broadway/redisclient"
+	handlers "github.com/mattiapavese/broadway/routerhandlers"
 )
 
 func PurgeTombstoned() {
